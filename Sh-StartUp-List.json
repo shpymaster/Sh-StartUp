@@ -1,0 +1,140 @@
+{
+    "name": "Sh-StartUp Configuration File",
+	"version": "2019.10.01",
+
+	"NetProfiles": [
+		{
+			"Network": "OFFICESSID",
+			"Configuration": "Office"
+		},
+		{
+			"Network": "HOMESSIS",
+			"Configuration": "Home_Office"
+		}
+	],
+	
+    "Programs": [
+        {
+			"Program": "Skype",
+            "ProgramName": "Skype4Business",
+            "DisplayName": "Skype for Business",
+            "Command": "C:/Program Files (x86)/Microsoft Office/root/Office16/lync.exe"
+        },
+        {
+            "Program": "SoftPhone",
+			"ProgramName": "Cisco Jabber",
+            "DisplayName": "SoftPhone",
+            "Command": "C:/Program Files (x86)/Cisco Systems/Cisco Jabber/CiscoJabber.exe"
+        },
+        {
+            "Program": "Outlook",
+			"ProgramName": "Outlook 365",
+            "DisplayName": "Outlook",
+            "Command": "C:/Program Files (x86)/Microsoft Office/root/Office16/OUTLOOK.EXE"
+        },
+        {
+            "Program": "Yandex Browser",
+			"ProgramName": "Yandex Browser",
+            "DisplayName": "Yandex Browser",
+            "Command": "C:/Users/sampleuser/AppData/Local/Yandex/YandexBrowser/Application/browser.exe"
+        },
+        {
+            "Program": "Chrome",
+			"ProgramName": "Chrome",
+            "DisplayName": "Chrome Browser",
+            "Command": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
+		},
+		{
+            "Program": "Sh-ScrLock_OFFs",
+			"ProgramName": "Sh-ScrLock_OFFs",
+            "DisplayName": "Sh-ScrLock OFF silent",
+            "Command": "C:/Users/sampleuser/Sh-ScrLock_OffS.lnk"			
+		},
+		{
+            "Program": "Sh-ScrLock_OFF",
+			"ProgramName": "Sh-ScrLock_OFF",
+            "DisplayName": "Sh-ScrLock OFF",
+            "Command": "C:/Users/sampleuser/_shScrSvr-Off.lnk"			
+		}
+	],
+	"Configurations": {
+		"Default": [
+			{
+				"Program": "Skype",
+				"Checked": 0
+			},
+			{
+				"Program": "SoftPhone",
+				"Checked": 0
+			},
+			{
+				"Program": "Outlook",
+				"Checked": 0
+			},
+			{
+				"Program": "Yandex Browser",
+				"Checked": 1
+			},
+			{
+				"Program": "Chrome",
+				"Checked": 0
+			},
+			{
+				"Program": "Sh-ScrLock_OFF",
+				"Checked": 0
+			}
+		],
+		"Office": [
+			{
+				"Program": "Skype",
+				"Checked": 1
+			},
+					{
+				"Program": "SoftPhone",
+				"Checked": 1
+			},
+			{
+				"Program": "Outlook",
+				"Checked": 1
+			},
+			{
+				"Program": "Yandex Browser",
+				"Checked": 1
+			},
+			{
+				"Program": "Chrome",
+				"Checked": 0
+			},
+			{
+				"Program": "Sh-ScrLock_OFF",
+				"Checked": 0
+			}
+		],
+		"Home_Office": [
+			{
+				"Program": "Skype",
+				"Checked": 0
+			},
+			{
+				"Program": "SoftPhone",
+				"Checked": 0
+			},
+			{
+				"Program": "Outlook",
+				"Checked": 1
+			},
+			{
+				"Program": "Yandex Browser",
+				"Checked": 1
+			},
+			{
+				"Program": "Chrome",
+				"Checked": 0
+			},
+			{
+				"Program": "Sh-ScrLock_OFF",
+				"Checked": 1
+			}
+		]
+	}
+}
