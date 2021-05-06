@@ -3,3 +3,4 @@ _old version/
 *.lnk
 *.log
 *.json0
+.vscode/

@@ -126,7 +126,7 @@ class shStartUpGUI:
         config = "Default"
         strNetworks = subprocess.check_output(["netsh", "wlan", "show", "networks"])
         if type(strNetworks) == bytes:
-            strNetworks = strNetworks.decode('ascii')
+            strNetworks = strNetworks.decode('ascii', errors= 'ignore')
         netProfiles = self.listData["NetProfiles"]
         for rec in netProfiles:
             if rec["Network"] in strNetworks:

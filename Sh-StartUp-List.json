@@ -55,6 +55,12 @@
 			"ProgramName": "Sh-ScrLock_OFF",
             "DisplayName": "Sh-ScrLock OFF",
             "Command": "C:/Users/sampleuser/_shScrSvr-Off.lnk"			
+		},
+		{
+            "Program": "OneNote",
+			"ProgramName": "MS OneNote",
+            "DisplayName": "OneNote",
+            "Command": "C:/Program Files (x86)/Microsoft Office/root/Office16/ONENOTEM.EXE"			
 		}
 	],
 	"Configurations": {
@@ -82,6 +88,10 @@
 			{
 				"Program": "Sh-ScrLock_OFF",
 				"Checked": 0
+			},
+			{
+				"Program": "OneNote",
+				"Checked": 0
 			}
 		],
 		"Office": [
@@ -107,6 +117,10 @@
 			},
 			{
 				"Program": "Sh-ScrLock_OFF",
+				"Checked": 0
+			},
+			{
+				"Program": "OneNote",
 				"Checked": 0
 			}
 		],
@@ -134,6 +148,10 @@
 			{
 				"Program": "Sh-ScrLock_OFF",
 				"Checked": 1
+			},
+			{
+				"Program": "OneNote",
+				"Checked": 0
 			}
 		]
 	}
